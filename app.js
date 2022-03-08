@@ -16,7 +16,7 @@ const server = http.createServer((req,res) =>{
         res.write("<body>");
             res.write("<form>");
                 res.write("<label>");
-                res.write("<p>User name</p>");
+                res.write("<p>Chào các chú</p>");
                 res.write("<input>");
                 res.write("<button>");
                 res.write("Submit");
