@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/datlt2306/web503.git"
+    "url": "git+https://github.com/hiepnxph15148/nodejs.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/datlt2306/web503/issues"
+    "url": "https://github.com/hiepnxph15148/nodejs/issues"
   },
-  "homepage": "https://github.com/datlt2306/web503#readme",
+  "homepage": "https://github.com/hiepnxph15148/nodejs#readme",
   "devDependencies": {
     "nodemon": "^2.0.15"
   },

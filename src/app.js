@@ -15,5 +15,5 @@ mongoose.connect("mongodb://localhost:27017/we16306")
 // Connect
 const PORT = 3001;
 app.listen(PORT, () => {
-  console.log(`Server${PORT} đang hoạt động`);
+  console.log(`Server đang chạy cổng ${PORT}`);
 });
