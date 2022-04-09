@@ -11,13 +11,5 @@ const categorySchema = mongoose.Schema({
         unique:true,
         index: true,
     },
-    // price :{
-        // type : Number,
-        // require : true,
-    // },
-    // category :{
-        // type : ObjectId,
-        // ref :"Category"
-    // }
 },{ timestamps: true});
-export default mongoose.model("category",categorySchema);
+export default mongoose.model("Category",categorySchema);
