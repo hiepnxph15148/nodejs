@@ -7,7 +7,7 @@ const router = Router();
 
 router.get("/categories", list);
 router.post('/categories', create);
-router.get("/categories/:id", read);
+router.get("/categories/:slug", read);
 router.delete("/categories/:id",remove)
 router.put("/categories/:id",update)
 

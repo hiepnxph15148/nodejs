@@ -15,8 +15,12 @@ const productSchema = mongoose.Schema({
         type: Number,
         required: true
     },
+    title:{
+        type: String,
+        required: true
+    },
     category : {
-        type:  Object,
+        type:  mongoose.ObjectId,
         ref :"category"
     }
 }, { timestamps: true} )

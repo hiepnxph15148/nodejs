@@ -4,14 +4,8 @@ const cartSchame = new  Schema({
         type:String,
         required:true
     },
-    image:{
-        type:String
-    },
     price:{
         type:Number
-    },
-    description:{
-        type:String
     },
     user:{
         type: ObjectId,
@@ -21,9 +15,5 @@ const cartSchame = new  Schema({
         type: Number,
         required: true
     },
-    order:{
-        type: ObjectId,
-        ref:"Order"
-    }
 }, {timestamps: true})
 export default mongoose.model("Cart", cartSchame)
